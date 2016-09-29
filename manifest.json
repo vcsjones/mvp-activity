@@ -22,8 +22,7 @@
         }
     },
     "permissions": [
-        "activeTab",
-        "<all_urls>"
+        "activeTab"
     ],
     "background": {
         "scripts": ["background.js"],
