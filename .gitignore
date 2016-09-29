@@ -1,5 +1,7 @@
 node_modules/
 typings/
+out/
 *.js
 *.js.map
 .DS_Store
+out.zip
