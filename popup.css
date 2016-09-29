@@ -1,18 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html, body {
     width: 800px;
     height: 500px;
-    padding: 0;
-    margin: 0;
 }
 
 iframe {
     width: 800px;
     height: 700px;
-    padding: 0;
     border: 0;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
 
 #container {
     overflow: scroll;
     height: 500px;
+}
+
+#loading {
+    background-color: #1570a6;
+    border: 0;
+    padding: 7px 21px;
+}
+
+#loading p {
+    text-align: center;
+    color: #FFF;
+    font-size: 14pt;
 }

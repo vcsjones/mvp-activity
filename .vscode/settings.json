@@ -7,7 +7,9 @@
         "**/*.js": { "when": "$(basename).ts"},
         "**/*.js.map": true,
         "typings/": true,
-        "node_modules/": true
+        "node_modules/": true,
+        "out.zip": true,
+        "**/out": true
     },
     "files.encoding": "utf8"
 }
