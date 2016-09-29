@@ -3,7 +3,7 @@
     "name": "MVP Activity Tracker",
     "short_name": "MVP Activity",
     "description": "Add activity to your MVP profile.",
-    "version": “0.1.1.0”,
+    "version": "0.1.1.0",
     "author": "Kevin Jones (@vcsjones)",
     "minimum_chrome_version": "48",
     "minimum_edge_version": "33.14281.1000.0",
