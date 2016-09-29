@@ -7,4 +7,6 @@ cp *.html ./out
 cp *.css ./out
 cp manifest.json ./out/manifest.json
 cp -r ./images/ ./out/images/
-zip -r out.zip ./out 
+pushd ./out
+zip -r -X ../out.zip *
+popd 
