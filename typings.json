@@ -1,0 +1,9 @@
+{
+  "globalDevDependencies": {
+    "chrome": "registry:dt/chrome",
+    "filesystem": "registry:dt/filesystem",
+    "filewriter": "registry:dt/filewriter",
+    "mediastream": "registry:dt/webrtc/mediastream",
+    "es6-shim": "registry:dt/es6-shim"
+  }
+}

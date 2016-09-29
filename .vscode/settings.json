@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.swp": true,
+        "**/*.js": { "when": "$(basename).ts"},
+        "**/*.js.map": true,
+        "typings/": true,
+        "node_modules/": true
+    },
+    "files.encoding": "utf8"
+}

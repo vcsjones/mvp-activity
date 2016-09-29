@@ -1,0 +1,18 @@
+html, body {
+    width: 800px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+iframe {
+    width: 800px;
+    height: 700px;
+    padding: 0;
+    border: 0;
+}
+
+#container {
+    overflow: scroll;
+    height: 500px;
+}
