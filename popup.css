@@ -24,7 +24,8 @@ iframe {
 }
 
 #container {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: 500px;
 }
 
