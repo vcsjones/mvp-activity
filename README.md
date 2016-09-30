@@ -12,6 +12,13 @@ does, which prevented it from working on popular sites such as GitHub.
 Simply grab the extension from the browser's extension store to get it installed. You'll
 be asked to sign in once in a new browser window, then you can use the extension.
 
+## Store installers
+
+* Chrome: https://chrome.google.com/webstore/detail/mvp-activity-tracker/djllhdemfpgjphlhoaelkpppfgdkjgfk
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/mvp-activity-tracker/?src=ss
+* Edge: Available when Edge takes general submissions
+* Safari: In Progress
+
 # Building
 
 Ensure you have typescript 1.8 installedi and typings 1.4.
