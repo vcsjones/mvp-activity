@@ -8,14 +8,14 @@ window.addEventListener('message', eve => {
     }
 });
 
-chrome.runtime.sendMessage('taburl', (response : QueryResponse) => {
+chrome.runtime.sendMessage('taburl', (response : QueryResponse | null | undefined) => {
     const placeholder = <HTMLDivElement>document.getElementById('loading');
     const frame = <HTMLIFrameElement>document.getElementById('mvpframe');
     const root_uri = 'https://mvp.microsoft.com/en-us/Bookmarklet/';
     let frame_uri = root_uri;
     //In the event that the background script didn't properly report the current
     //tab, open the frame anyway with none of the textboxes filled out.
-    if (typeof response !== 'undefined') {
+    if (response) {
         frame_uri += `?url=${encodeURIComponent(response.tab_url)}&title=${encodeURIComponent(response.tab_title)}`;
     }
     //If the activity page doesn't load in 30 seconds, show a message.

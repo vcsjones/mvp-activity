@@ -1,4 +1,4 @@
 export interface QueryResponse {
-    tab_url : string;
-    tab_title : string;
+    readonly tab_url : string;
+    readonly tab_title : string;
 }
