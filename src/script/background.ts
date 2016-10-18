@@ -17,6 +17,14 @@ class TabQueryListener {
             });
             return true;
         });
+
+        chrome.runtime.onInstalled.addListener(() => {
+            chrome.management.getSelf(self => {
+                if (self.installType === 'development') {
+                    chrome.browserAction.setBadgeText({ text: 'DEV' });
+                }
+            });
+        });
     }
 }
 
