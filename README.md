@@ -21,8 +21,6 @@ be asked to sign in once in a new browser window, then you can use the extension
 
 # Building
 
-Ensure you have typescript 1.8 installedi and typings 1.4.
+Ensure you have typescript 2.0 installed and npm.
 
-Use `typings install` to restore the typings files, and `tsc` to build, or VSCode.
-
-TypeScript 2.0 support will come when VS Code support is mainstream for it.
+Use `npm install` to restore the typings files, and `tsc` to build, or VSCode.
