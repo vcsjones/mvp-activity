@@ -1,6 +1,6 @@
 #!/bin/bash
 
-typings install
+npm install
 mkdir -p ./out
 tsc --outDir ./out
 cp *.html ./out

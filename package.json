@@ -1,0 +1,19 @@
+{
+  "name": "mvp-activity",
+  "version": "1.0.0",
+  "description": "MVP Activity Tracker",
+  "dependencies": {
+    "@types/chrome": "0.0.34"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcsjones/mvp-activity.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vcsjones/mvp-activity/issues"
+  },
+  "homepage": "https://github.com/vcsjones/mvp-activity#readme"
+}
