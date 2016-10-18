@@ -18,12 +18,20 @@ class TabQueryListener {
             return true;
         });
 
+        chrome.runtime.onStartup.addListener(() => {
+            this.applyDevWatermark();
+        });
+
         chrome.runtime.onInstalled.addListener(() => {
-            chrome.management.getSelf(self => {
-                if (self.installType === 'development') {
-                    chrome.browserAction.setBadgeText({ text: 'DEV' });
-                }
-            });
+            this.applyDevWatermark();
+        });
+    }
+
+    applyDevWatermark() {
+        chrome.management.getSelf(self => {
+            if (self.installType === 'development') {
+                chrome.browserAction.setBadgeText({ text: 'DEV' });
+            }
         });
     }
 }
