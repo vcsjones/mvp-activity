@@ -31,7 +31,7 @@
         "activeTab"
     ],
     "background": {
-        "scripts": ["background.js"],
+        "scripts": ["script/background.js"],
         "persistent": false
     }
 }

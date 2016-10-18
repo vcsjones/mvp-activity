@@ -6,7 +6,7 @@
         "allowSyntheticDefaultImports": true
     },
     "include": [
-        "**/*.ts"
+        "src/script/*.ts"
     ],
     "exclude": [
         "node_modules"
