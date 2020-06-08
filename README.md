@@ -1,6 +1,11 @@
 MVP Activity Tracker
 ============
 
+⚠️This project has been archived because it no longer functions for reasons beyond
+this repository's control. See https://github.com/vcsjones/mvp-activity/issues/1
+for details.
+
+
 This extension is identical in behavior to the MVP Activity Tracker bookmarklet, but
 implemented as a browser extension instead.
 
